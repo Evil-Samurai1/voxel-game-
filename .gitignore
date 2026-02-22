@@ -1,0 +1,35 @@
+# Spicific files
+saves/
+*.db
+*.sqlite3
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Venv
+venv/
+env/
+.env/
+Pipfile.lock
+
+# Test
+.pytest_cache/
+.coverage
+htmlcov/
+
+# IDE (VS Code, PyCharm)
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# (Windows/macOS)
+.DS_Store
+Thumbs.db
+
+# Logs
+logs/
+*.log
