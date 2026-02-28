@@ -1,0 +1,4 @@
+loguru
+ursina 
+numpy
+perlin-noise
