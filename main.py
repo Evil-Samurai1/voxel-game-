@@ -3,6 +3,8 @@ from core.texture_builder import build_atlas
 from core.chunk_manager import ChunkManager
 from entities.player import Player
 import config
+from loguru import logger
+from core.logger import setup_logger
 
 def input(key):
     if key == 'f11':
@@ -11,6 +13,8 @@ def input(key):
         application.quit()
 
 def main():
+    setup_logger()
+    logger.info('The game have started')
     atlas_data = build_atlas()
     uv_map, grid_size = atlas_data
     
